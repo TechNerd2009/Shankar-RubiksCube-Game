@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Rubik's Cube - Three.js (Vibrant)</title>
+  </head>
+  <body>
+    <div id="controls">
+      <button id="scramble-btn">Scramble</button>
+      <button id="solve-btn" disabled>Solve</button>
+    </div>
+    <div id="container"></div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.163.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.163.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <!-- The website JavaScript file -->
+    <script type="module" src="script.js"></script>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </body>
+</html>
