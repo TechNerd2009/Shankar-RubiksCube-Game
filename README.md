@@ -63,4 +63,4 @@ The project is organized with standard web development practices:
 ## ✅ Ready to Play?
 
 Play online [here](https://shankar-rubikscube-game.netlify.app/), or clone the repo, open index.html in your browser.  
-Enjoy interacting with the 3D Rubik's Cube 🧊! 🎉
+Enjoy interacting with the 3D Rubik's Cube 🎉!
